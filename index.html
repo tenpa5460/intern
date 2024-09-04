@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+    <link rel="stylesheet" href="../2.CSSでサイトのデザインを整えよう/style.css">
+    <title>山崎の自己紹介サイト</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-wrapper common-wrapper">
+            <h1>山崎の自己紹介サイト</h1>
+            <nav>
+                <ul class="header-list">
+                    <li class="header-list-item"><a href="#introduction">自己紹介</a></li>
+                    <li class="header-list-item"><a href="#hobby">趣味とか</a></li>
+                    <li class="header-list-item"><a href="#motto">座右の銘</a></li>
+                    <li class="header-list-item"><a href="#video">お気に入りの動画</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- 自己紹介 -->
+        <section id="introduction" class="common-wrapper">
+            <h2 class="section-title">自己紹介</h2>
+            <table class="introduction-table">
+                <tr class="table-header">
+                    <th class="table-header-contents">項目</th>
+                    <th class="table-header-answer">回答</th>
+                </tr>
+                <tr>
+                    <td>名前</td>
+                    <td>ヤマサキ</td>
+                </tr>
+                <tr>
+                    <td>出身</td>
+                    <td>鹿児島県</td>
+                </tr>
+                <tr>
+                    <td>専門</td>
+                    <td>流体力学</td>
+                </tr>
+                <tr>
+                    <td>学生時代の部活</td>
+                    <td>テニス</td>
+                </tr>
+                <tr>
+                    <td>好きなこと</td>
+                    <td>アニメを見ること</td>
+                </tr>
+            </table>
+        </section>
+        <!-- 趣味とか -->
+        <section id="hobby" class="common-wrapper">
+            <h2 class="section-title">趣味とか</h2>
+            <div class="hobby-outer">
+                <div class="hobby-inner">
+                    <img class="hobby-image" src="./images/harry.jpg" alt="ハリーポッター" width="3024" height="4032">
+                    <h3>ハリーポッターミュージアム</h3>
+                    <p>ハリーポッターについては特に知りません<br>なんだかんだ楽しかった</p>
+                </div>
+                <div class="hobby-inner">
+                    <img class="hobby-image" src="./images/indonesia.jpg" alt="インドネシア" width="2268" height="4032">
+                    <h3>インドネシア</h3>
+                    <p>苦い思い出のインドネシア<em>very very beautiful</em></p>
+                </div>
+                <div class="hobby-inner">
+                    <img class="hobby-image" src="./images/newcaledonia.jpg" alt="ニューカレドニア" width="4032" height="3024">
+                    <h3>ニューカレドニア</h3>
+                    <p>昔から行きたかったニューカレドニア<strong>「天国に一番近い」</strong>は本当だった</p>
+                </div>
+            </div>
+        </section>
+        <section id="motto" class="common-wrapper">
+            <h2 class="section-title">座右の銘</h2>
+            <p class="motto-text">When life gives you lemons, make lemonade</p>
+        </section>
+        <section id="video" class="common-wrapper">
+            <h2 class="section-title">お気に入りの動画</h2>
+            <div class="button-outer">
+                <a class="button" href="https://www.youtube.com/watch?v=3v9w7Mftn-4">大谷さん</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer"><small class="small">&copy; 2024 &lt;internSample&gt;</small></p>
+    </footer>
+</body>
+
+</html>
